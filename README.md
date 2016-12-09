@@ -7,4 +7,4 @@
 
 ####二、下拉刷新 直接在js中监听这个事件就行，下拉没效果，后来才发现原本需要在全局的json window中先设置开启
 
-###三、没有像iOS中的webview，后来找了一个别人解析html的view
+####三、没有像iOS中的webview，后来找了一个别人解析html的view
