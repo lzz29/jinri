@@ -1,0 +1,6 @@
+{
+  "window":{
+    "navigationBarTitleText":"hello",
+    "enablePullDownRefresh": false
+  }
+}

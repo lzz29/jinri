@@ -1,0 +1,31 @@
+<template name="article">
+    <navigator url="../article/article?id={{article.id}}" hover-class="navigator-hover">
+    <view>
+        <image src="http://jinri.info/{{article.img}}" class="aimg" mode="aspectFit" ></image>
+        <view class="atext">
+            <view class="atitle">{{article.title}}</view>
+            <view class="ades"> {{article.content}} </view>
+            <view class='sed'>
+                <view class="atime">{{article.date}}</view>
+                <view class="apage">阅读量:{{article.page_views}}</view>
+            </view>
+        </view>
+    </view>
+    </navigator>
+</template>
+
+
+<view class="contain">
+    <view class="articles" wx:for="{{articles}}" wx:for-index="idx" wx:for-item="article">
+        <template is="article" data="{{article}}"/>
+    </view>
+</view>
+
+<view class="vload" hidden="{{fload}}">
+    <image id="loadimg" src="../images/Loading.gif" ></image>
+</view>
+
+<view class='nocont' hidden="{{nocont}}">没有更多内容了~</view>
+
+
+<view id="footer">Copyright © 2012-2016 jinri.info</view>

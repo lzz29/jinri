@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/article/article"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#FCFAF2",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText":"今日Tech",
+    "enablePullDownRefresh": true
+  }
+}

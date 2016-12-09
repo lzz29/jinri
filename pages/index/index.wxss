@@ -1,0 +1,14 @@
+/**index.wxss**/
+
+.contain{margin-top:20rpx;margin-left:20rpx;position:relative;}
+.articles{margin-top:10rpx;width:710rpx;height:180rpx;border-bottom:1rpx solid seashell;padding-bottom: 20rpx;  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.aimg{float:left;width:200rpx;height:160rpx;}
+.atext{margin-left:210rpx; width:500rpx;overflow:hidden;}
+.atitle{height:60rpx;line-height: 60rpx;overflow:hidden;font-size:30rpx;font-weight: bold;}
+.ades{height:80rpx;font-size:25rpx;color:#666;overflow:hidden;line-height:40rpx;}
+.sed{font-size:25rpx;color:#aaa;height:30rpx;line-height:30rpx;margin-top:8rpx;}
+.atime{width:120rpx;float:right;}
+#footer{color:#999;font-size:20rpx;margin:25rpx 0; text-align: center;}
+#loadimg{width:50rpx;height:50rpx}
+.vload{text-align: center;margin-top:20rpx;}
+.nocont{font-size:25rpx;color:#666; text-align: center;margin-top: 20rpx;}
